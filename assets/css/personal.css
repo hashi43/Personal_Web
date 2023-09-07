@@ -86,7 +86,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #585858;
+  border: 6px solid #1e1e1e;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -314,14 +314,14 @@ h6 {
 }
 
 #hero p {
-  color: #6c6c6c;
+  color: #ffff;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #e4e4e4;
+  color: #3c9aff;
   letter-spacing: 1px;
 }
 
@@ -332,7 +332,7 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #fffff;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -603,6 +603,9 @@ section {
   background: #242424;
 }
 
+.see_btn:active{
+  transform: scale(0.98);
+}
 
 .carousel-item{
   padding: 2em;
@@ -1216,6 +1219,9 @@ section {
 
 .contact .email-form button[type=submit]:hover {
   background: #151515;
+}
+.contact .email-form button:active{
+  transform: scale(0.98);
 }
 
 @keyframes animate-loading {
